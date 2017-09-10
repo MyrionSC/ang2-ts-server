@@ -1,0 +1,21 @@
+{
+  "name": "sw7-we-miniproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc && cp -r ./frontend/dist/* ./dist",
+    "start": "node --inspect ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "nodejs": "0.0.0",
+    "typescript": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.27"
+  }
+}
